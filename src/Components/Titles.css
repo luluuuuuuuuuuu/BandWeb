@@ -1,0 +1,29 @@
+.titles {
+    position: relative;
+    min-width: 100vw;
+    max-height: 50vh;
+    background-color: #a0a084;
+    
+
+}
+.band-title img{
+    max-width: 30vw;
+    position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  background-color: #a0a084;
+  
+
+}
+
+.tour {
+    max-width: 30vw;
+    position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a0a084;
+}
+

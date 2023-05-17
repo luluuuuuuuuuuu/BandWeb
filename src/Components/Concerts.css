@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #a0a084;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-top: 90px;
+}
+
+.location, .venue {
+  text-align: left;
+  border-bottom: 4px black solid;
+  padding: 0 70px;
+  
+}
+
+.datetime {
+  padding-right: 70px;
+  border-bottom: 4px black solid;
+}
+
+tr:nth-child(even) {
+  background-color: #a0a084;
+}
+
+.tickets a{
+  padding: 0.4rem 1.6rem;
+  text-align: left;
+  color: black;
+  border: 4px black solid;
+}
+
+td {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 2.4rem;
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+

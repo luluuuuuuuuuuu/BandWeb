@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Band Website
+This is a website for a music band built using React. The website displays information about the band and their upcoming concerts, which are fetched from the BandsinTown API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Installation
+To install and run the Band Website project on your local machine, follow these steps:
 
-## Available Scripts
+Clone the repository from GitHub: git clone https://github.com/luluuuuuuuuuuu/BandWeb.git
+Install the required dependencies by running npm install in the project directory.
+Create a .env file in the root of the project and add your BandsinTown API key 
+Start the development server by running npm start in the project directory.
+Usage
+Once the project is running locally, you can view the Band Website in your web browser at http://localhost:3000. The website includes the following pages:
 
-In the project directory, you can run:
+Home page: Displays a welcome message and a list of upcoming concerts for the band.
+Contact page: Provides a form for fans to contact the band.
+Contributing
+If you'd like to contribute to the Band Website project, please follow these steps:
 
-### `npm start`
+Fork the repository on GitHub.
+Create a new branch for your changes: git checkout -b your-branch-name
+Make your changes and test them locally.
+Push your changes to your forked repository: git push origin your-branch-name
+Create a pull request to merge your changes into the main repository.
+Credits
+The Band Website project was created by [Your Name]. It uses the following third-party libraries and resources:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React: https://reactjs.org/
+BandsinTown API: https://www.bandsintown.com/api/overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+The Band Website project is licensed under the [insert your chosen license here]. See the LICENSE file for more information.

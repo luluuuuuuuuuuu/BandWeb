@@ -1,0 +1,77 @@
+.navbar {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a0a084;
+    color: black;
+  }
+  
+  .navbar-brand {
+    color: black;
+    font-weight: bolder;
+  }
+
+  .navbar-brand:hover{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Band-title-navbar {
+    max-width: 200px;
+    height: auto;
+
+  }
+
+  .nav-item {
+    color: black;
+    display: flex;
+    align-items: baseline;
+    
+  }
+  
+  .nav-link {
+    color: black;
+    width: 100%;
+    align-items: baseline;
+  }
+
+  .middle-navbar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right-navbar {
+    display: flex;
+    padding-right: 100px;
+  }
+
+  .left-navbar {
+    display: flex;
+    padding-left: 100px;
+  }
+  
+  .left-navbar .navbar-brand {
+    margin-right: 60px;
+  }
+
+  .nav-link:hover {
+    color: black;
+  }
+  
+  
+  
+  
